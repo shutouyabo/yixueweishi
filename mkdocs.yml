@@ -1,11 +1,11 @@
-site_name: 天涯神贴大合集
-site_url: https://tianyashentie.zhihu.blog/
+site_name: 医学微视
+site_url: https://yxws.zhihu.blog/
 site_author: shutouyabo
 site_description: >-
   wiki bin
 
 repo_name: 天涯神贴大合集
-repo_url: https://github.com/shutouyabo/tianyashentie/
+repo_url: https://github.com/shutouyabo/yixueweishi/
 
 copyright: Copyright &copy; 2021-present <a href="https://github.com/shutouyabo" target="_blank" rel="noopener noreferrer">shutouyabo</a>
 
@@ -76,7 +76,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/shutouyabo/tianyashentie/
+      link: https://github.com/shutouyabo/yixueweishi/
   analytics:
     provider: google
     property: G-KJB4RXSKZG
