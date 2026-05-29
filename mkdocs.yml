@@ -1,0 +1,120 @@
+site_name: 天涯神贴大合集
+site_url: https://tianyashentie.zhihu.blog/
+site_author: shutouyabo
+site_description: >-
+  wiki bin
+
+repo_name: 天涯神贴大合集
+repo_url: https://github.com/shutouyabo/tianyashentie/
+
+copyright: Copyright &copy; 2021-present <a href="https://github.com/shutouyabo" target="_blank" rel="noopener noreferrer">shutouyabo</a>
+
+theme:
+  name: material
+  language: zh
+  static_templates:
+    - 404.html
+  favicon: images/favicon.ico
+  apple-touch-icon-precomposed: images/mobile_icon.png
+  include_search_page: false
+  search_index_only: true
+
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  font:
+    text: Roboto Slab
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+  custom_dir: overrides
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+
+plugins:
+  - i18n:
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+
+  - search:
+      lang:
+        - zh
+  - git-revision-date:
+  - minify:
+      minify_html: true
+  - open-in-new-tab:
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shutouyabo/tianyashentie/
+  analytics:
+    provider: google
+    property: G-KJB4RXSKZG
+
+nav:
+  - 前言: "index.md"
+  - 1 - 天涯神贴210:
+      - "天涯神贴210（1-50篇）": "1 - 天涯神贴210/天涯神贴210（1-50篇）.md"
+      - "天涯神贴210（51-100篇）": "1 - 天涯神贴210/天涯神贴210（51-100篇）.md"
+      - "天涯神贴210（101-150篇）": "1 - 天涯神贴210/天涯神贴210（101-150篇）.md"
+      - "天涯神贴210（151-194篇）": "1 - 天涯神贴210/天涯神贴210（151-194篇）.md"
+  - 2 - 蓬莱鬼话、玄幻灵异、中医命理:
+      - "蓬莱鬼话、玄幻灵异、中医命理 1-37篇": "2 - 蓬莱鬼话、玄幻灵异、中医命理/蓬莱鬼话、玄幻灵异、中医命理 1-37篇.md"
+  - 3 - 金融财经、股市楼市、经济预测:
+      - "金融财经、股市楼市、经济预测 1-50篇": "3 - 金融财经、股市楼市、经济预测/金融财经、股市楼市、经济预测 1-50篇.md"
+      - "金融财经、股市楼市、经济预测 51-100篇": "3 - 金融财经、股市楼市、经济预测/金融财经、股市楼市、经济预测 51-100篇.md"
+      - "金融财经、股市楼市、经济预测 101-127篇": "3 - 金融财经、股市楼市、经济预测/金融财经、股市楼市、经济预测 101-127篇.md"
+  - 4 - 人在江湖、古今热点、成长箴言:
+      - "人在江湖、古今热点、成长箴言 1-35篇": "4 - 人在江湖、古今热点、成长箴言/人在江湖、古今热点、成长箴言 1-35篇.md"
+      - "人在江湖、古今热点、成长箴言 36-70篇": "4 - 人在江湖、古今热点、成长箴言/人在江湖、古今热点、成长箴言 36-70篇.md"
+  - 5 - 天涯高阶神贴:
+      - "天涯高阶神贴1-50篇": "5 - 天涯高阶神贴/天涯高阶神贴1-50篇.md"
+      - "天涯高阶神贴51-100篇": "5 - 天涯高阶神贴/天涯高阶神贴51-100篇.md"
+      - "天涯高阶神贴101-150篇": "5 - 天涯高阶神贴/天涯高阶神贴101-150篇.md"
+      - "天涯高阶神贴151-190篇": "5 - 天涯高阶神贴/天涯高阶神贴151-190篇.md"
+  - 6 - 十一大板块:
+      - "KK大神": "6 - 十一大板块/KK大神.md"
+      - "懒兔子": "6 - 十一大板块/懒兔子.md"
+      - "九哥合集": "6 - 十一大板块/九哥合集.md"
+      - "蓬莲鬼话": "6 - 十一大板块/蓬莲鬼话.md"
+      - "禅海商道": "6 - 十一大板块/禅海商道.md"
+      - "股市楼市": "6 - 十一大板块/股市楼市.md"
+      - "缠中说禅": "6 - 十一大板块/缠中说禅.md"
+      - "创业家园": "6 - 十一大板块/创业家园.md"
+      - "经济论坛": "6 - 十一大板块/经济论坛.md"
+      - "国际观察": "6 - 十一大板块/国际观察.md"
+      - "盛京剑客": "6 - 十一大板块/盛京剑客.md"
+      - "地缘看世界": "6 - 十一大板块/地缘看世界.md"
+      - "大家常读的贴": "6 - 十一大板块/大家常读的贴.md"
+      - "开窍开悟开智5册": "6 - 十一大板块/开窍开悟开智5册.md"
+      - "独家稀有贴整理新增": "6 - 十一大板块/独家稀有贴整理新增.md"
