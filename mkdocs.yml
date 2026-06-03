@@ -2,12 +2,12 @@ site_name: 医学微视
 site_url: https://yxws.zhihu.blog/
 site_author: shutouyabo
 site_description: >-
-  wiki bin
+  wiki yixueweishi
 
 repo_name: 医学微视
 repo_url: https://github.com/shutouyabo/yixueweishi/
 
-copyright: Copyright &copy; 2021-present <a href="https://github.com/shutouyabo" target="_blank" rel="noopener noreferrer">shutouyabo</a>
+copyright: Copyright &copy; 2026 <a href="https://yxws.zhihu.blog/" target="_blank" rel="noopener noreferrer">医学微视</a>
 
 theme:
   name: material
